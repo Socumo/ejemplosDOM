@@ -23,3 +23,8 @@ const toppings =  document.getElementsByClassName("topping");
 console.log(toppings); // esto funciona como un arreglo 
 console.log(toppings[0]); // de esta forma puedo mostrar el primer elemento 
 console.log(toppings[0].id); //así puedo obtener el id
+
+/*como seleccionar todos los elementos que tengan una etiqueta especifica en HTML*/
+
+const misToppings = document.getElementsByTagName("li");
+console.log(misToppings);
